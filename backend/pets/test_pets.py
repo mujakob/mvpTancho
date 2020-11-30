@@ -2,6 +2,8 @@ from starlette.testclient import TestClient
 
 from .routes import pets_router
 
+# just a comment
+
 client = TestClient(pets_router)
 
 pets_ids = []
